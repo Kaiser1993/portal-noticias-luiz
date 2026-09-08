@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de acessibilidade</title>
+    <link rel="stylesheet" href="/css/menuAcessibilidade.css">
+    
+</head>
+<body>
+    <div>
+
+<span aria-label="Início da página">&nbsp;</span>
+
+<a href="#conteudoPrincipal" class="skipLink">
+    Ir para o conteúdo principal
+</a>
+<br>
+<button id="btnAcessibilidade" aria-expanded="false">
+    &#9855; Acessibilidade
+</button>
+<div id="menuAcessibilidade" hidden>
+<button id="btnAumentarFonte" aria-label="aumentarFonte">
+Aumentar fonte
+</button>
+<button id="btnDiminuirFonte" aria-label="diminuirFonte">
+Diminuir fonte
+</button>
+<button id="btnAlterarContraste" aria-label="alterarContraste">
+Alterar contraste
+</button>
+</div>
+    </div>
+    </body>
+</html>

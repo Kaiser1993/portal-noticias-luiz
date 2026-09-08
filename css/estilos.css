@@ -1,0 +1,33 @@
+*{
+    
+}
+
+table{
+    width:80% ;
+    margin: auto ;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+
+th.data {
+min-width: 8rem;
+
+}
+
+.destaque{
+    text-align: center;
+    background-color:  red;
+color: darkblue;
+}
+.rodape{
+    text-align: center;
+    margin-top: 10em;
+    padding: 10px;
+    background-color: yellow;    
+}
+

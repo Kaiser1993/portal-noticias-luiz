@@ -1,0 +1,43 @@
+.skipLink {
+    left: -9999px;
+    position: absolute;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.skipLink:focus {
+    position: static;
+}
+
+#btnAcessibilidade {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+#menuAcessibilidade {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+border: 1px solid gray;
+width: 150px;
+box-sizing: border-box;
+}
+
+
+#menuAcessibilidade button {
+display: block;    
+width: 90%;
+margin: 10px auto;
+}
+
+.contraste{
+    background-color: black;
+    color: white;
+}

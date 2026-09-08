@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="tituloPagina">cadastro de notíicias</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="module" src="dist/cadNoticias.js"></script>
+    <script type="module" src="dist/controleAcesso.js"></script>
+    <script type="module" src="dist/rodape.js"></script>
+</head>
+<body>
+    <h1 id="tituloCabecalho">
+        Cadastro de Notícias
+    </h1>
+    
+<div id="divMensagem" role="alert"></div>    
+<form id="formCadNoticia">
+<div>
+        <label for="txtTitulo">
+            Informe o título
+        </label>
+        <br>
+  <input type="text" id="txtTitulo" required>
+</div>
+<div>
+    <label for="txtConteudo">
+Informe o conteúdo 
+    </label>
+    <br>
+    <textarea id="txtConteudo" cols="50" rows="10" required></textarea>
+</div>
+<div>
+    <label for="txtData">
+Informe a data
+    </label>
+    <br>
+    <input type="date" id="txtData" required>
+    </div>
+    <div>
+        <button type="submit" id="btnEnviar">
+            Enviar
+        </button>
+    </div>
+    <div>
+        <button type="reset">
+            Limpar
+        </button>
+    </div>
+    </form>    
+<a href="adm.html">
+    Voltar
+</a>
+<div id="rodape" class="rodape"></div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de login</title>
+<link rel="stylesheet" href="css/estilos.css">    
+<script type="module" src="dist/login.js"></script>
+<script type="module" src="dist/rodape.js"></script>
+</head >
+<body>
+    <h1>
+        Formulário de Login
+    </h1>
+    <div id="divMensagem" role="alert"></div>
+    <form id="formLogin">
+<div>
+    <label for="txtEmail">
+        E-mail
+    </label>
+    <br>
+ <input type="email" id="txtEmail"
+ required> 
+</div>
+<div>
+    <label for="txtSenha">
+       Senha 
+    </label>
+    <br>
+<input type="password" id="txtSenha"
+required>
+</div>
+<div>
+    <button type="reset">
+        Limpar
+    </button>
+</div>
+<div>
+    <button type="submit">
+        Enviar
+    </button>       
+</div>
+    </form>
+    <a href="home.html">
+        Voltar
+    </a>
+    <div id="rodape" class="rodape"></div>
+</body>
+</html>
